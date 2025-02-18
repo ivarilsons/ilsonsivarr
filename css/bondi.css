@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Roboto Condensed", serif;
+}
+header{
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30PX;
+    
+}
+
+ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#FF6F00;
+}
+.logo{
+    color: rgb(0, 140, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1.5em;
+    display: flex;
+    justify-content:flex-start;
+    gap: 30px;
+}
+.navigation a{
+    color: #FF6F00;
+}
+.navigation a:hover{
+    color:black ;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/3.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed; 
+}
+.main h2{
+    color:#D7263D;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 98, 0);
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3{
+    color: #EAEAEA;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.main-btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#FF6F00;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    transition: transform ease 0.7s;
+}
+.main-btn:hover{
+    background-color: #D7263D;
+    transform: scale(1.1);
+    color: white;
+    border-radius: 10px;
+}
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+    
+
+}
+ul li{
+    border-radius: 10px;
+    padding-bottom:20px;
+    
+}
+ul li a{
+    color: orange;
+}
+.social-icons{
+    padding: auto;
+}
+.social-icons a:hover{
+    color: orange;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.card{
+    background-color: white;
+    width:21.25em;
+    box-shadow: 0 5px 25px rgba(1,1,1,0.15) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: transform ease 0.7s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: rgb(0, 0, 0);
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.projects{
+    background-color: black;
+}
+.projects .content{
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width:23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: transform ease 0.7s;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-img{
+    opacity: 0.9;
+}
+.project-img img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size:0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: blue;
+}
+.more-details:hover{
+    color: aqua;
+}
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color: black;
+}
+.contact .info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content:space-between;
+
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: blue;
+}
+@media (max-width:1023px){
+    
+}
